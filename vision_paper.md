@@ -34,16 +34,13 @@ Nice to have: deploy in Docker</p>
 
 ### Technical plan (which tools/frameworks)
 
-* Java for every service
-* Git
-* Apache Maven 
-* TravisCI   instead GitHub Actions
-* Spring Framework (Spring Core, Spring Data, Spring Boot,…)
-* JUnit
-* SonarQube
-* Docker
-* JMeter
-
-#### Questions:
-Integration Tests, Performance tests
-
+* Java for every service --> because of Spring and experience
+* Git --> no alternative (most common versioning tool)
+* Apache Maven --> experience
+* GitHub Actions instead of TravisCI --> because GitHub Actions is better integrated in GitHub and its newer
+* Spring Framework (Spring Core, Spring Data, Spring Boot,…) --> because it is more convenient/ the best fit for implementing REST similar projects
+* PostgreSQL --> because its open source and experience
+* JUnit --> because we have to test and in Java its the most common used 
+* SonarCloud --> experience, we now this from other lectures
+* Docker --> used in other lectures, no alternative for deployment
+* JMeter --> proposed tool in ASE for performance tests
