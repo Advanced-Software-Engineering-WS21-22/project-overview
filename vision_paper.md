@@ -5,7 +5,7 @@
 
 ## Group-B name and members:
 
-Alex Hofer, Alex Wirth, Franziska Holauf, Fabian Oraze, Larissa Krainer
+Alex Hofer, Alex Wirth, Franziska Hollauf, Fabian Oraze, Larissa Krainer
 
 ### Useful links:
 * https://github.com/Mitschi/lecture-planner 
