@@ -16,7 +16,7 @@ Alex Hofer, Alex Wirth, Franziska Holauf, Fabian Oraze, Larissa Krainer
 
 ## Short project description (1 paragraph)
 
-This project is about an advanced person manager, where you also can create relationships(friendships) between persons. You can add, delete, update persons and add relationships between them. Also some GeoData will be used, so that you will get a recommandation of persons which live next to you. Another idea is that there will be a remindr for birthday of your friends with an service where you will be able to send birthday whishes. And some more features, every feature is planned as a single service, and this services will interact whith each other.
+<p>This project is about an advanced person manager, where you can create relationships(friendships) between persons. You can add, delete, update persons and add relationships between them. Also some GeoData will be used, so that you will get a recommandation of persons which live next to you. Another idea is that there will be a remindr for birthday of your friends with an service where you will be able to send birthday whishes. And some more features, every feature is planned as a single service, and this services will interact whith each other. </p>
 Spring project, every group member implements a module („service“) and finally we put them together.
 Nice to have: deploy in Docker
 
