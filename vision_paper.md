@@ -16,17 +16,20 @@ Alex Hofer, Alex Wirth, Franziska Holauf, Fabian Oraze, Larissa Krainer
 
 ## Short project description (1 paragraph)
 
-<p>This project is about an advanced person manager, where you can create relationships(friendships) between persons. You can add, delete, update persons and add relationships between them. Also some GeoData will be used, so that you will get a recommandation of persons which live next to you. Another idea is that there will be a remindr for birthday of your friends with an service where you will be able to send birthday whishes. And some more features, every feature is planned as a single service, and this services will interact whith each other. </p>
-Spring project, every group member implements a module („service“) and finally we put them together.
-Nice to have: deploy in Docker
+<p>This project is about an advanced person manager, where you can create relationships(friendships) between persons. You can add, delete, update persons and add relationships between them. Also some GeoData will be used, so that you will get a recommendation of persons which live next to you. Another idea is that there will be a reminder for birthday of your friends with an service where you will be able to send birthday whishes. And some more features, every feature is planned as a single service, and this services will interact with each other. </p>
+<p>To sum up:<br>
+Friendsify is for every Informatic person who has no friends. Because of the pandemic a lot of us feel lonely so we decided to create a tool to connect to other lonely people.<br>
+Spring project, every group member implements a module („service“) and finally we put them together.<br>
+Nice to have: deploy in Docker</p>
 
 ### Main goals/functionality (epics in Scrum; table)
-* Birthday reminder service + Birthday wishes send service = Birthday Service
-* E-Mail service  Birthday + Joke
-* GeoData find friends service
-* Person management service (add, delete, relationships, change/update information)  REST 
-* Friends management service (add, delete, timeout/blocking, change/update information, recommendation of persons)  REST
-* Maybe Recommondation Service as extra, not part of friends management service 
+* Birthday Service = Birthday reminder service + Birthday wishes send service (uses E-Mail Service) 
+* Joke Service = to send a Joke to your friends (uses E-Mail Service)
+* E-Mail service = send messsage(s) (like birthday wishes and Jokes)
+* Person management service (add, delete, relationships, change/update information), like REST 
+* Friends management service (add, delete, timeout/blocking, change/update information), likeREST
+* Recommendation Service = recommendation of persons through GeoData API, Birthday ...
+* Front-End-Service
 
 
 ### Technical plan (which tools/frameworks)
