@@ -41,7 +41,7 @@ Nice to have: deploy in Docker</p>
 * Spring Framework (Spring Core, Spring Data, Spring Boot,…) --> because it is more convenient/ the best fit for implementing REST similar projects
 * PostgreSQL --> because its open source and experience
 * JUnit --> because we have to test and in Java its the most common used 
-* SonarCloud --> experience, we now this from other lectures
+* SonarCloud --> experience, we know this from other lectures
 * Docker --> used in other lectures, no alternative for deployment
 * JMeter --> proposed tool in ASE for performance tests
 
